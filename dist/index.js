@@ -71,6 +71,7 @@ function runTest(options) {
         return { json, yaml };
     });
 }
+
 exports.runTest = runTest;
 function parseFile(filePath) {
     if (!fs_1.default.existsSync(filePath)) {
